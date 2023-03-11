@@ -91,4 +91,4 @@ jobs:
           flags: '--allow-unauthenticated'
 
       - name: Test Prod
-        run: 'curl "${{ steps.prod-deploy.outputs.url }}"'
+        run: 'curl "${{ steps.prod-deploy.outputs.url }}"' 
